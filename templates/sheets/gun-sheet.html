@@ -1,0 +1,49 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+    </header>
+    <div>
+      <table>
+          <tr>
+            <th>{{localize "ep2.weapon.attackWith"}}</th>
+            <th>{{localize "ep2.weapon.firingModes"}}</th>
+            <th>{{localize "ep2.weapon.damageValue"}}</th>
+            <th>{{localize "ep2.weapon.ammo"}}</th>
+            <th>{{localize "ep2.weapon.range"}}</th>
+            <th>{{localize "ep2.weapon.complexity"}}</th>
+            <th>{{localize "ep2.weapon.WareType"}}</th>
+          </tr>
+          <tr>
+            <td>
+              <select name="data.attackWith">
+                {{#select data.attackWith}}
+                {{#each config.attackTypes as |name type|}}
+                <option value="{{type}}">{{name}}</option>
+                {{/each}}
+                {{/select}}
+              </select>
+            </td>
+            <td>
+              <input type="data.firingModes" type="text" value="{{data.firingModes}}" data-dtype="Number" />
+            </td>
+            <td>
+              <input type="data.damageValue" type="text" value="{{data.damageValue}}" data-dtype="Number" />
+            </td>
+            <td>
+              <input type="data.ammo" type="text" value="{{data.ammo}}" data-dtype="Number" />
+            </td>
+            <td>
+              <input type="data.range" type="text" value="{{data.range}}" data-dtype="Number" />
+            </td>
+            <td>
+              <input type="data.complexity" type="text" value="{{data.complexity}}" data-dtype="Number" />
+            </td>
+            <td>
+              <input type="data.WareType" type="text" value="{{data.WareType}}" data-dtype="Number" />
+            </td>
+          </tr>
+        </table>
+        <textarea name="data.description">{{data.description}}</textarea>
+    </div>
+</form>

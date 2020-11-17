@@ -1,0 +1,23 @@
+{
+"ep2": {
+  "description": "Description",
+
+  "attack": {
+    "none": "",
+    "guns": "Guns",
+    "melee": "Melee",
+    "psi": "Psi",
+    "thrown": "Thrown",
+    "seeker": "Seeker"
+  },
+  "weapon": {
+    "attackWith": "Attack with",
+    "firingModes": "Firing Modes",
+    "damageValue": "Damage Value",
+    "ammo": "Ammo",
+    "range": "Range",
+    "complexity": "Complexity",
+    "WareType": "Ware Type"
+  }
+}
+}

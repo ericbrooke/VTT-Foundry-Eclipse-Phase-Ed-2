@@ -1,0 +1,44 @@
+{
+"Actor": {},
+"Item": {
+  "types": [
+    "gun",
+    "melee"
+  ],
+  "templates": {
+    "itemDescription": {
+      "description": "unknown"
+    },
+    "itemDamage": {
+      "damageValue": 0
+    },
+    "itemComplexity": {
+      "complexity": "unknown"
+    },
+    "itemWareType":{
+      "wareType": "unknown"
+    }
+  },
+  "melee": {
+    "attackWith": "melee",
+    "templates": [
+      "itemDamage",
+      "itemComplexity",
+      "itemWareType",
+      "itemDescription"
+    ]
+  },
+  "gun": {
+    "attackWith": "guns",
+    "firingModes": "SS",
+    "ammo": 0,
+    "range": 0,
+    "templates": [
+      "itemDamage",
+      "itemComplexity",
+      "itemWareType",
+      "itemDescription"
+    ]
+  }
+}
+}

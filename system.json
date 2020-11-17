@@ -1,7 +1,28 @@
 {
 "name": "ep2",
 "title": "Eclipse Phase 2",
-"version": "0.01",
+"description": "A system to play Eclipse Phase 2 Edition on VTT Foundry",
+"version": 0.01,
+"author": "Eric Brooke",
+"minimumCoreVersion": "0.7.7",
+"compatibleCoreVersion": "0.7.7",
+"esmodules":[
+  "ep2.js"
+],
+"styles": [
+  "ep2.css"
+],
+"packs": [
 
-
+],
+"languages": [
+  {
+    "lang": "en",
+    "name": "English",
+    "path": "lang/en.json"
+  }
+],
+"gridDistance": 5,
+"gridUnits": "m",
+"initiative": "id6 + @initiative"
 }
