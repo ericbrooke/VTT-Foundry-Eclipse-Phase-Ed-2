@@ -7,20 +7,20 @@
   ],
   "templates": {
     "itemDescription": {
-      "description": "unknown"
+      "description": "The description"
     },
     "itemDamage": {
       "damageValue": 0
     },
     "itemComplexity": {
-      "complexity": "unknown"
+      "complexity": "complexity"
     },
     "itemWareType":{
-      "wareType": "unknown"
+      "wareType": "ware type"
     }
   },
   "melee": {
-    "attackWith": "melee",
+    "weaponType": "Melee",
     "templates": [
       "itemDamage",
       "itemComplexity",
@@ -29,7 +29,7 @@
     ]
   },
   "gun": {
-    "attackWith": "guns",
+    "weaponType": "Gun",
     "firingModes": "SS",
     "ammo": 0,
     "range": 0,

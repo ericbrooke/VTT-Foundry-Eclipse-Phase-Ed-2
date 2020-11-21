@@ -1,23 +1,23 @@
 {
-"ep2": {
-  "description": "Description",
+  "ep2": {
+    "description": "Description",
 
-  "attack": {
-    "none": "",
-    "guns": "Guns",
-    "melee": "Melee",
-    "psi": "Psi",
-    "thrown": "Thrown",
-    "seeker": "Seeker"
-  },
-  "weapon": {
-    "attackWith": "Attack with",
-    "firingModes": "Firing Modes",
-    "damageValue": "Damage Value",
-    "ammo": "Ammo",
-    "range": "Range",
-    "complexity": "Complexity",
-    "WareType": "Ware Type"
+    "weaponTypes": {
+      "none": "Nope",
+      "guns": "Guns",
+      "melee": "Melee",
+      "psi": "Psi",
+      "thrown": "Thrown",
+      "seeker": "Seeker"
+    },
+    "weapon": {
+      "weaponType": "Weapon Type",
+      "firingModes": "Firing Modes",
+      "damageValue": "Damage Value HAMSTER",
+      "ammo": "Ammo",
+      "range": "Range",
+      "complexity": "Complexity",
+      "WareType": "Ware Type"
+    }
   }
-}
 }
