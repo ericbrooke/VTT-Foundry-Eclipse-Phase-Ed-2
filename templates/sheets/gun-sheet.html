@@ -16,7 +16,7 @@
               <select name="data.weaponTypes">
                 {{#select data.weaponTypes}}
                 {{#each config.weaponTypes as |name type|}}
-                <option value="{{type}}">{{type}}</option>
+                <option value="{{type}}">{{localize name}}</option>
                 {{/each}}
                 {{/select}}
               </select>
