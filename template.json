@@ -1,44 +1,186 @@
 {
-"Actor": {},
-"Item": {
-  "types": [
-    "gun",
-    "melee"
-  ],
-  "templates": {
-    "itemDescription": {
-      "description": "The description"
+  "Actor": {
+    "types":[
+      "pc",
+      "npc",
+      "creature"
+    ],
+    "templates": {
+      "commonStats": {
+        "aptitude": {
+          "cognition": 0,
+          "intuition": 0,
+          "reflexes": 0,
+          "savvy": 0,
+          "somatics": 0,
+          "willpower": 0
+        },
+        "physical":{
+          "damageTaken": 0,
+          "woundsTaken": 0,
+          "durability": 0,
+          "woundThreshold": 0,
+          "deathRating": 0,
+          "movementRate": ""
+        },
+        "skill": {
+          "athletics": 0,
+          "deceive": 0,
+          "exotic": {
+            "value": 0,
+            "field": "",
+            "linkedAptitude": "somatics",
+            "Type": "active, physical"
+            },
+          "fray": 0,
+          "freeFall": 0,
+          "guns": 0,
+          "hardWare": {
+            "value": 0,
+            "field": "",
+            "linkedAptitude": "cognition",
+            "Type": "active, field, technical"
+            },
+          "infiltrate": 0,
+          "infosec": 0,
+          "kinesics": 0,
+          "know": {
+            "value": 0,
+            "field": "",
+            "linkedAptitude": "cognition",
+            "Type": "field, know"
+            },
+          "medicine": {
+            "value": 0,
+            "field": "",
+            "linkedAptitude": "cognition",
+            "Type": "active, field, technical"
+            },
+          "melee": 0,
+          "perceive": 0,
+          "persuade": 0,
+          "pilot": 0,
+          "program": 0,
+          "provoke": 0,
+          "psi": 0,
+          "research": 0,
+          "survival": 0
+        }
+      },
+      "characterStats": {
+        "name": "",
+        "aliases": "",
+        "languages": "",
+        "egoTraits": "",
+        "career": "",
+        "sex": "",
+        "gender": "",
+        "sexualIdentity": "",
+        "age": 0,
+        "description":"",
+        "faction": "",
+        "motivation": "",
+
+        "ego": {
+          "lucidity": 0,
+          "traumaThreshold": 0,
+          "insanityRating": 0,
+          "stressTaken": 0,
+          "TraumasTaken": 0
+        },
+        "rep": {
+          "@-rep": 0,
+          "c-rep": 0,
+          "f-rep": 0,
+          "g-rep": 0,
+          "i-rep": 0,
+          "r-rep": 0,
+          "x-rep": 0
+        },
+        "dicePools":{
+          "insight": 0,
+          "moxie": 0,
+          "vigor": 0,
+          "flex": 0
+        },
+        "morph": {
+          "morphType": "",
+          "cost": "",
+          "templates": [
+            "dicePools",
+            "physical"
+          ],
+          "availability": 0,
+          "ware": "",
+          "morphTraits": "",
+          "morphNotes": ""
+        }
+      }
     },
-    "itemDamage": {
-      "damageValue": 0
+    "pc": {
+      "templates": [
+        "commonStats",
+        "characterStats"
+      ],
+      "rezPoints": 0
     },
-    "itemComplexity": {
-      "complexity": "complexity"
+    "npc": {
+      "templates": [
+        "commonStats",
+        "characterStats"
+      ]
     },
-    "itemWareType":{
-      "wareType": "ware type"
+    "creature": {
+      "templates": [
+        "commonStats"
+      ],
+      "description": "",
+      "threatPool": 0,
+      "stressTest": ""
     }
   },
-  "melee": {
-    "weaponType": "Melee",
-    "templates": [
-      "itemDamage",
-      "itemComplexity",
-      "itemWareType",
-      "itemDescription"
-    ]
-  },
-  "gun": {
-    "weaponType": "Gun",
-    "firingModes": "SS",
-    "ammo": 0,
-    "range": 0,
-    "templates": [
-      "itemDamage",
-      "itemComplexity",
-      "itemWareType",
-      "itemDescription"
-    ]
+  "Item": {
+    "types": [
+      "gun",
+      "melee"
+    ],
+    "templates": {
+      "itemDescription": {
+        "description": "The description"
+      },
+      "itemDamage": {
+        "damageValue": 0
+      },
+      "itemComplexity": {
+        "complexity": ""
+      },
+      "itemWareType":{
+        "wareType": ""
+      }
+    },
+    "melee": {
+      "weaponType": "Melee",
+      "reach": 0,
+      "templates": [
+        "itemDamage",
+        "itemComplexity",
+        "itemWareType",
+        "itemDescription"
+      ]
+    },
+    "gun": {
+      "weaponType": "Gun",
+      "singleShot": false,
+      "burstFire": false,
+      "fullAuto": false,
+      "ammo": 0,
+      "range": 0,
+      "templates": [
+        "itemDamage",
+        "itemComplexity",
+        "itemWareType",
+        "itemDescription"
+      ]
+    }
   }
-}
 }

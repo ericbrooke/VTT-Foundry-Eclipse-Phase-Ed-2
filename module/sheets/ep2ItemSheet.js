@@ -10,7 +10,7 @@ export default class ep2ItemSheet extends ItemSheet {
   }
 
   get template(){
-    return `systems/ep2/templates/sheets/${this.item.data.type}-sheet.html`;
+    return `systems/ep2/templates/sheets/${this.item.data.type}-sheet.hbs`;
   }
 
   getData() {
