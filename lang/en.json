@@ -13,7 +13,7 @@
     "weapon": {
       "weaponType": "Weapon Type",
       "firingModes": "Firing Modes",
-      "damageValue": "Damage Value HAMSTER",
+      "damageValue": "Damage Value",
       "ammo": "Ammo",
       "range": "Range",
       "complexity": "Complexity",
