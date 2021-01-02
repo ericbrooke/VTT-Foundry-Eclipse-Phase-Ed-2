@@ -2,14 +2,24 @@
 
 A volunteer attempt to build out the rules of Eclipse Phase Second Edition Rules on the Virtual Tabletop Software Foundry -> https://foundryvtt.com
 
-Eclipse Phase is a trademark of Posthuman Studios, LLC.You can find them at https://eclipsephase.com
+Eclipse Phase is a trademark of Posthuman Studios, LLC. You can find them at https://eclipsephase.com
 
-#Credits
+License of the the original materials created by Posthuman Studios, LLC
+
+Eclipse Phase was created under a Creative Commons License;
+Some Rights Reserved.
+This work is licensed under the Attribution- NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license: creativecommons.org/licenses/by-nc-sa/4.0/
+In plain English: you are free to copy, share, and remix the text and artwork within this book under the following conditions:
+- you do so only for noncommercial purposes; you attribute Posthuman Studios;
+- you license any derivatives under the same license.
+- For specific details, appropriate credits, and updates to this license, please see: eclipsephase.com/cclicense
+
+# Credits
 
 Author: Eric Brooke
 Contributors
 
-Feedback
+# Feedback
 
 If you have any suggestions or bugs to report, feel free to create an issue on GitHub or contact me on Discord (yaljin#8613).
 
