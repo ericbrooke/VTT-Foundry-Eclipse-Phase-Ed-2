@@ -1,7 +1,7 @@
 {
   "Actor": {
     "types":[
-      "pc",
+      "playerCharacter",
       "npc",
       "creature"
     ],
@@ -117,7 +117,7 @@
         }
       }
     },
-    "pc": {
+    "playerCharacter": {
       "templates": [
         "commonStats",
         "characterStats"

@@ -1,39 +1,11 @@
 <form class="{{cssClass}}" autocomplete="off">
-    <header class="sheet-header">
-        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
-        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
-    </header>
-    <div class="sheet-content">
-      <table>
-          <tr>
-            <th>COG</th>
-            <th>INT</th>
-            <th>REF</th>
-            <th>SAV</th>
-            <th>SOM</th>
-            <th>WIL</th>
-          </tr>
-          <tr>
-            <td>
-              <input name="data.cognition" type="text" value="{{data.cognition}}" data-dtype="Number" />
-            </td>
-            <td>
-              <input name="data.intuition" type="text" value="{{data.intuition}}" data-dtype="Number" />
-            </td>
-            <td>
-              <input name="data.reflexes" type="text" value="{{data.reflexes}}" data-dtype="Number" />
-            </td>
-            <td>
-              <input name="data.savvy" type="text" value="{{data.savvy}}" data-dtype="Number" />
-            </td>
-            <td>
-              <input name="data.somatics" type="text" value="{{data.somatics}}" data-dtype="Number" />
-            </td>
-            <td>
-              <input name="data.willpower" type="text" value="{{data.willpower}}" data-dtype="Number" />
-            </td>
-          </tr>
-        </table>
-        {{editor content=data.description target="data.description" button=true owner=owner editable=editable }}
-    </div>
+  <header class="sheet-header">
+      <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64"/>
+      <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Name"/></h1>
+  </header>
+  <div class="sheet-content">
+    {{ "systems/eps/templates/partials/character-attributes.hbs"}}
+    
+      {{editor content=data.description target="data.description" button=true owner=owner editable=editable }}
+  </div>
 </form>
