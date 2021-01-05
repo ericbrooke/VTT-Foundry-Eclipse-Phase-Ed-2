@@ -3,9 +3,13 @@
       <img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="64" width="64"/>
       <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Name"/></h1>
   </header>
+  test
   <div class="sheet-content">
-    {{ "systems/eps/templates/partials/character-attributes.hbs"}}
-    
-      {{editor content=data.description target="data.description" button=true owner=owner editable=editable }}
+
+    <div class="character-attributes">
+      {{> "systems/ep2/templates/partials/character-attributes.hbs"}}
+    </div>
+
+    {{editor content=data.description target="data.description" button=true owner=owner editable=editable }}
   </div>
 </form>

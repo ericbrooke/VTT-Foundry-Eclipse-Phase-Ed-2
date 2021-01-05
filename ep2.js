@@ -4,8 +4,9 @@ import ep2PlayerCharacterSheet from "./module/sheets/ep2PlayerCharacterSheet.js"
 
 async function preloadHandlebarsTemplates () {
   const templatePaths = [
-    "system/ep2/templates/partials/character-attributes.bhs",
+    "systems/ep2/templates/partials/character-attributes.hbs",
   ];
+  console.log("ep2 | Loading Templates");
   return loadTemplates(templatePaths);
 };
 
@@ -18,7 +19,7 @@ Hooks.once("init",function() {
   Items.registerSheet("ep2", ep2ItemSheet, {makeDefault: true});
 
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("ep2", ep2ActorSheet, {makeDefault: true});
+  Actors.registerSheet("ep2", ep2PlayerCharacterSheet, {makeDefault: true});
 
   preloadHandlebarsTemplates();
 });
