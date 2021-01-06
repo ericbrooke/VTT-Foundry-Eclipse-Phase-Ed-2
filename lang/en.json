@@ -2,6 +2,19 @@
   "ep2": {
     "description": "Description",
 
+    "identity": {
+      "aliases": "Aliases",
+      "languages": "Languages",
+      "career": "Career",
+      "sex": "Sex",
+      "gender": "Gender",
+      "sexualIdentity": "Sexual Identity",
+      "culturalHeritage": "Cultural Heritage",
+      "age": "Age",
+      "faction": "Faction",
+      "motivation": "Motivation",
+    },
+
     "weaponTypes": {
       "none": "Nope",
       "guns": "Guns",

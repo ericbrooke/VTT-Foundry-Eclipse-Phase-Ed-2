@@ -71,17 +71,18 @@
         "name": "",
         "aliases": "",
         "languages": "",
-        "egoTraits": "",
         "career": "",
         "sex": "",
         "gender": "",
         "sexualIdentity": "",
+        "culturalHeritage": "",
         "age": 0,
         "description":"",
         "faction": "",
         "motivation": "",
 
         "ego": {
+          "egoTraits": "",
           "lucidity": 0,
           "traumaThreshold": 0,
           "insanityRating": 0,
@@ -89,7 +90,7 @@
           "TraumasTaken": 0
         },
         "rep": {
-          "@-rep": 0,
+          "at-rep": 0,
           "c-rep": 0,
           "f-rep": 0,
           "g-rep": 0,

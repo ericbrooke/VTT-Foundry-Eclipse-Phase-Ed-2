@@ -5,6 +5,10 @@ import ep2PlayerCharacterSheet from "./module/sheets/ep2PlayerCharacterSheet.js"
 async function preloadHandlebarsTemplates () {
   const templatePaths = [
     "systems/ep2/templates/partials/character-attributes.hbs",
+    "systems/ep2/templates/partials/character-identity.hbs",
+    "systems/ep2/templates/partials/character-reputation.hbs",
+    "systems/ep2/templates/partials/character-skills.hbs",
+    "systems/ep2/templates/partials/physical.hbs",
   ];
   console.log("ep2 | Loading Templates");
   return loadTemplates(templatePaths);
