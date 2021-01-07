@@ -1,6 +1,20 @@
 {
   "ep2": {
     "description": "Description",
+    "skill": "Skill",
+    "aptitude": "APT",
+    "type": "Type",
+    "total": "Total",
+    "specialisation": "Spec",
+
+    "aptitudes": {
+      "cognition": "COG",
+      "intuition": "INT",
+      "reflexes": "REF",
+      "savvy": "SAV",
+      "somatics": "SOM",
+      "willpower": "wil"
+    },
 
     "identity": {
       "aliases": "Aliases",
@@ -12,7 +26,7 @@
       "culturalHeritage": "Cultural Heritage",
       "age": "Age",
       "faction": "Faction",
-      "motivation": "Motivation",
+      "motivation": "Motivation"
     },
 
     "weaponTypes": {
@@ -31,6 +45,39 @@
       "range": "Range",
       "complexity": "Complexity",
       "WareType": "Ware Type"
+    },
+    "skills": {
+      "athletics": "Athletics",
+      "deceive": "Deceive",
+      "exotic": "Exotic",
+      "fray": "Fray",
+      "freeFall": "Freefall",
+      "guns": "Guns",
+      "hardWare": "Hardware",
+      "infiltrate": "Infiltrate",
+      "infosec": "Infosec",
+      "kinesics": "Kinesics",
+      "know": "know",
+      "medicine": "Medicine",
+      "melee": "Melee",
+      "perceive": "Perceive",
+      "persuade": "Persuade",
+      "pilot": "Pilot",
+      "program": "Program",
+      "provoke": "Provoke",
+      "psi": "PSI",
+      "research": "Research",
+      "survival": "Survival"
+    },
+    "skillCategory": {
+      "active": "Active",
+      "combat": "Combat",
+      "mental": "Mental",
+      "physical": "Physical",
+      "psi": "PSI",
+      "social": "Social",
+      "technical": "Technical",
+      "vechicle": "Vechicle"
     }
   }
 }
