@@ -13,7 +13,16 @@
       "reflexes": "REF",
       "savvy": "SAV",
       "somatics": "SOM",
-      "willpower": "wil"
+      "willpower": "WIL"
+    },
+
+    "physical": {
+      "damage": "Damage",
+      "wounds": "Wounds",
+      "durability": "Durability",
+      "woundThreshold": "Wound Threshold",
+      "deathRating": "Death Rating",
+      "movement": "Movement"
     },
 
     "identity": {
