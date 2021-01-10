@@ -24,47 +24,227 @@
           "movementRate": ""
         },
         "skill": {
-          "athletics": 0,
-          "deceive": 0,
-          "exotic": {
-            "value": 0,
-            "field": "",
+          "athletics": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
             "linkedAptitude": "somatics",
-            "Type": "active, physical"
+            "type": ["active", "physical"],
+            "specOptions": ["acrobatics", "fly", "climb", "jump", "parkour", "run", "swim", "throw" ]
+          },
+          "deceive": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "savvy",
+            "type": ["active", "social"],
+            "specOptions": ["act", "bluff", "con", "fast talk", "impersonate"]
+          },
+          "exotic": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "field": "",
+            "spec": "",
+            "linkedAptitude": "",
+            "type": ["active", "field"],
+            "fieldExamples": ["animal handling", "bow", "disguise", "escape artist", "plasma cutter", "sleight of hand", "throwing knives", "whips"]
             },
-          "fray": 0,
-          "freeFall": 0,
-          "guns": 0,
+          "fray": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "reflexes",
+            "type": ["active", "combat"],
+            "specOptions": ["full defense", "guns", "melee"]
+          },
+          "freeFall": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "somatics",
+            "type": ["active", "physical"],
+            "specOptions": ["jump", "parachute", "pull", "vacsuits"]
+          },
+          "guns": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "reflexes",
+            "type": ["active", "combat"],
+            "specOptions": ["beam weapons", "firearms", "plasma weapons", "railguns", "seekers", "spray weapons"]
+          },
           "hardWare": {
-            "value": 0,
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
             "field": "",
             "linkedAptitude": "cognition",
-            "Type": "active, field, technical"
+            "Type": ["active", "field", "technical"],
+            "fieldExamples": ["aerospace", "armorer", "demonlitions", "electronics", "groundcraft", "industrial", "nautical", "robotica"]
             },
-          "infiltrate": 0,
-          "infosec": 0,
-          "kinesics": 0,
+          "infiltrate": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "reflexes",
+            "type": ["active", "physical"],
+            "specOptions": ["blend in", "hides", "shadow", "sneak"]
+          },
+          "infosec": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "cognition",
+            "type": ["active", "technical"],
+            "specOptions": ["brainhack", "brute-force hack", "decrypt", "probe", "security", "sniff", "spoof", "subvert", "VR Hack"]
+          },
+          "interface": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "cognition",
+            "type": ["active", "technical"],
+            "specOptions": ["forge", "jam", "scan", "sensors", "weapon systems"]
+          },
+          "kinesics": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "savvy",
+            "type": ["active", "social"],
+            "specOptions": ["detect deception", "emote", "judge intent"]
+          },
           "know": {
             "value": 0,
             "field": "",
-            "linkedAptitude": "cognition",
-            "Type": "field, know"
+            "spec": "",
+            "linkedAptitude": "",
+            "Type": ["field", "know"]
             },
           "medicine": {
-            "value": 0,
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
             "field": "",
+            "spec": "",
             "linkedAptitude": "cognition",
-            "Type": "active, field, technical"
+            "Type": ["active", "field", "technical"],
+            "fieldExamples": ["biotech", "forensics", "paramedic", "pharmacology", "psychosurgery", "surgery", "veterinary"]
             },
-          "melee": 0,
-          "perceive": 0,
-          "persuade": 0,
-          "pilot": 0,
-          "program": 0,
-          "provoke": 0,
-          "psi": 0,
-          "research": 0,
-          "survival": 0
+          "melee": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "somatics",
+            "type": ["active", "combat"],
+            "specOptions": ["blades", "clubs", "disarm", "grapple", "implants", "unarmed"]
+          },
+          "perceive": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "intuition",
+            "type": ["active", "mental"],
+            "specOptions": ["hear", "investigate", "scrounge", "see", "smell"]
+          },
+          "persuade": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "savvy",
+            "type": ["active", "social"],
+            "specOptions": ["diplomacy", "negotiate", "motivate"]
+          },
+          "pilot": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "field": "",
+            "spec": "",
+            "linkedAptitude": "reflexes",
+            "Type": ["active", "field", "vechicle"],
+            "fieldExamples": ["air", "ground", "nautical", "space"]
+          },
+          "program": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "cognition",
+            "type": ["active", "technical"],
+            "specOptions": ["ai", "infomorphs", "malware", "nanofabrication", "piracy", "vr"]
+          },
+          "provoke": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "savvy",
+            "type": ["active", "social"],
+            "specOptions": ["calm", "fluster", "inspire", "interrogate", "intimidate", "seduce", "taunt"]
+          },
+          "psi": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "willpower",
+            "type": ["active", "mental", "psi"],
+            "specOptions": ["control", "psi assault", "sense"]
+          },
+          "research": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "intuition",
+            "type": ["active", "technical"],
+            "specOptions": ["blogs", "cloud services", "deep mesh", "news archives", "social networks", "science archives", "track"]
+          },
+          "survival": {
+            "initial": 0,
+            "adjusted": 0,
+            "xp": 0,
+            "total": 0,
+            "spec": "",
+            "linkedAptitude": "intuition",
+            "type": ["active", "physical"],
+            "specOptions": ["forage", "hunt", "navigate", "track"]
+          }
         }
       },
       "characterStats": {
