@@ -1,7 +1,7 @@
 {
 "name": "ep2",
 "title": "Eclipse Phase 2",
-"description": "A system to play Eclipse Phase 2 Edition on VTT Foundry",
+"description": "A system to play Eclipse Phase 2 Edition on VTT Foundry!",
 "version": 0.01,
 "author": "Eric Brooke",
 "minimumCoreVersion": "0.7.7",
